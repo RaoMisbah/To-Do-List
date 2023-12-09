@@ -1,0 +1,80 @@
+body{
+    background-color: #2f363e;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+ }
+ .container{
+    position: relative;
+    width: 450px;
+    height: 550px;
+    border-radius: 30px;
+    margin-left: 30%;
+
+    background: #2f363e;
+    box-shadow: 25px 25px 75px rgba(0, 0,0, 0.25),
+    10px 10px 70px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 10px rgba(0, 0, 0, 0.25),
+    inset 5px 5px 20px rgba(255, 255, 255, 0.2),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75) ;
+ }
+ input{
+    position: relative;
+    width: 270px;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    outline: none;
+    font-size: 1em;
+    margin-left: 8%;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25), inset 2px 2px 5px rgba(0,0, 0, 0.25),
+    inset -3px -3px 5px rgba(0, 0,0, 0.25);
+      
+ }
+ h1
+ {
+    width: 100%;
+    font-weight: 600;
+    text-align: center;
+    color: #ffff;
+    font-size: 1.75em;
+    
+ }
+ button{
+    width: 80px;
+    height: 45px;
+    background-color: rgb(4, 29, 29);
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    outline: none;
+    font-size: 1em;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25), inset 2px 2px 5px rgba(0,0, 0, 0.25),
+    inset -3px -3px 5px rgba(0, 0,0, 0.25);
+   
+ }
+ .text ul{
+    position: relative;
+    width: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    background: #1f83f2;
+    margin: 15px 0;
+    padding: 10px;
+    min-height: 25px;
+    cursor: pointer;
+    border-radius: 22.5px;
+    color: #ffff;
+    margin-left: 8px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.25), inset 2px 2px 5px rgba(0,0, 0, 0.25),
+    inset -3px -3px 5px rgba(0, 0,0, 0.25); 
+ }
+ .text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+ }
